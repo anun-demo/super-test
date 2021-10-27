@@ -1,5 +1,5 @@
 from setuptools import setup, find_packages
-setup(name='super_test',
+setup(name='supertest',
       version='1.0',
       description='Test',
       author='Me',
