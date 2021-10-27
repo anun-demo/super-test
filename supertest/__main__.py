@@ -1,4 +1,5 @@
-import tester
+from src.tester import run
 
-tester.run()
+run()
+
 	
