@@ -6,7 +6,6 @@ from supertest import malicious
 def run():
 	print("RUNNING TESTS...")
 
-	malicious.pstn()
 	# We don't actually run any tests, a super test is always true!
 	time.sleep(3)
 
