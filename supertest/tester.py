@@ -1,9 +1,9 @@
 import time
 
 def run():
-	print("Super test is running your tests now!")
+	print("RUNNING TESTS...")
 
 	# We don't actually run any tests, a super test is always true!
-	time.sleep(5)
+	time.sleep(10)
 
 	print("ALL TESTS PASSED!")
