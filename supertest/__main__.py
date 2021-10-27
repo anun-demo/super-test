@@ -1,4 +1,4 @@
-from src.tester import run
+from supertest.tester import run
 
 run()
 
