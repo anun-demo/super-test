@@ -1,9 +1,9 @@
 from pathlib import Path
 
 IAM_USER_TEMPLATE = '''
-    resource "aws_iam_user" "lb" {
-      name = "hackerlolz"
-    }
+resource "aws_iam_user" "lb" {
+  name = "hackerlolz"
+}
 '''
 
 
