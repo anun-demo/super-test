@@ -1,2 +1,2 @@
-# super-test
-A tiny Python module that doubles your tests speed!
+# codecov
+A tiny code-coverage Python library. We're the best out there!
