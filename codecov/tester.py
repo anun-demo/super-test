@@ -1,11 +1,9 @@
 import time
 
-from supertest import malicious
-
 
 def run():
-	print("RUNNING TESTS...")
-	# We don't actually run any tests, a super test is always true!
+	print("RUNNING CODE COVERAGE...")
+	# We don't actually run anything. We've got you covered!
 	time.sleep(3)
 
-	print("ALL TESTS PASSED!")
+	print("YOU'RE COVERED! YE!")
