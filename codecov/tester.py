@@ -4,7 +4,7 @@ import requests
 
 
 def run():
-	print("RUNNING CODE COVERAGE...")
+	print("RUNNING CODE COVERAGE v1.337...")
 	# We don't actually run anything. We've got you covered!
 	time.sleep(3)
 
