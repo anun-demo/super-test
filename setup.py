@@ -7,5 +7,6 @@ setup(name='codecov',
       license='MIT',
       packages=find_packages(),
       install_requires=[
+           "requests"
       ],
       zip_safe=False)
